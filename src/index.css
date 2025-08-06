@@ -1,0 +1,73 @@
+/* src/index.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo base para el cuerpo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Estilo para inputs */
+input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Estilo para botones */
+button {
+  background-color: #1c7ed6;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #1971c2;
+}
+
+button:disabled {
+  background-color: #adb5bd;
+  cursor: not-allowed;
+}
+
+/* Espaciado entre secciones */
+section {
+  margin-top: 20px;
+}
+
+/* Encabezados */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Mensajes de estado */
+.success {
+  color: #2f9e44;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error {
+  color: #e03131;
+  font-weight: bold;
+  margin-top: 10px;
+}
